@@ -43,6 +43,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           ./gradlew build sonarqube \
-            -Dsonar.projectKey=testtiviv_raven-dashboard \
+            -Dsonar.projectKey=testiviv_raven-dashboard \
             -Dsonar.organization=testtiviv \
             -Dsonar.host.url=https://sonarcloud.io
