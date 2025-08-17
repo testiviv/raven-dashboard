@@ -1,0 +1,10 @@
+plugins {
+  id "org.sonarqube" version "6.2.0.5505"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "testiviv_raven-dashboard"
+    property "sonar.organization", "testiviv"
+  }
+}
